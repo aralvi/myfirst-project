@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice CSS</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <img
+            class="navbar__brand__img img"
+            src="assets/images/brand.svg"
+            alt=""
+          />
+          <p class="navbar__brand__title">Practice-CSS</p>
+        </div>
+        <div class="navbar__link navbar__item__toggler">
+          <i class="fa fa-bars"></i>
+        </div>
+        <ul class="navbar__list">
+          <li class="navbar__list__item">
+            <a href="#" class="navbar__link link"> Home</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="#" class="navbar__link link"> Profiles</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="#" class="navbar__link link"> Contact</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="#" class="navbar__link link"> Footer</a>
+          </li>
+        </ul>
+        <ul class="navbar__list">
+          <li class="">
+            <form class="navbar__form navbar__list--right" action="">
+              <button class="btn navbar__form__login__btn">Login</button>
+              <button class="btn navbar__form__signup__btn">Signup</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="header__hero__section">
+          <h1>Welcome to Orify</h1>
+          <p>you will get all your solutions here</p>
+      </section>
+    </header>
+    <main class="main">
+      <section class="main__heading h1__heading">
+        <h1>Users Profiles</h1>
+      </section>
+
+      <section class="profiles">
+        <div class="profiles__card">
+          <img
+            class="profiles__card__img"
+            src="assets/images/img_avatar.png"
+            alt="Avatar"
+          />
+          <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="profiles__card">
+          <img
+            class="profiles__card__img"
+            src="assets/images/img_avatar.png"
+            alt="Avatar"
+          />
+          <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="profiles__card">
+          <img
+            class="profiles__card__img"
+            src="assets/images/img_avatar.png"
+            alt="Avatar"
+          />
+          <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="profiles__card">
+          <img
+            class="profiles__card__img"
+            src="assets/images/img_avatar.png"
+            alt="Avatar"
+          />
+          <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="profiles__card">
+          <img
+            class="profiles__card__img"
+            src="assets/images/img_avatar.png"
+            alt="Avatar"
+          />
+          <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="profiles__card">
+          <img
+            class="profiles__card__img"
+            src="assets/images/img_avatar.png"
+            alt="Avatar"
+          />
+          <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+      </section>
+      <section class="main__heading h1__heading">
+        <h1>Contact Form</h1>
+      </section>
+      <section class="contact__form__section">
+        <form action="" class="contact__form">
+          <div class="form-group">
+            <label for="username" class="contact__form__lbl">User Name</label>
+            <i class="fa fa-user contact__form__input__icon"></i>
+            <input
+              type="text"
+              name=""
+              id=""
+              class="input__field form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="contact__form__lbl">User Email</label>
+            <i class="fa fa-envelope contact__form__input__icon"></i>
+            <input
+              type="email"
+              name=""
+              class="input__field form-control"
+              id=""
+            />
+          </div>
+          <div class="form-group">
+            <label for="addres" class="contact__form__lbl">User Address</label>
+            <i
+              class="fa fa-address-card contact__form__input__icon contact__form__input__icon__address"
+            ></i>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              class="input__field form-control"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn submit__btn">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__social__section footer__section">
+        <a href="facebook.com" class="link">
+          <img class="img" src="assets/images/facebook.svg" alt="" />
+        </a>
+        <a href="instagram.com" class="link">
+          <img class="img" src="assets/images/instagram.svg" alt="" />
+        </a>
+        <a href="twitter.com" class="link">
+          <img class="img" src="assets/images/twitter.svg" alt="" />
+        </a>
+      </section>
+      <section class="footer__contact__section footer__section">
+        <div class="footer__email">
+          <p>Orify@gmail.com</p>
+        </div>
+        <div class="footer__mobile__number">
+          <p>03016225833</p>
+        </div>
+        <div class="footer__address">
+          <p>Jhang Road Near GC University</p>
+        </div>
+      </section>
+      <section class="footer__location__section footer__section">
+        <img
+          src="assets/images/location.PNG"
+          class="footer__location__img"
+          alt=""
+        />
+      </section>
+    </footer>
+
+    <script>
+      function classToggle() {
+        const navs = document.querySelectorAll(".navbar__list");
+
+        navs.forEach((nav) => nav.classList.toggle("navbar__ToggleShow"));
+      }
+
+      document
+        .querySelector(".navbar__item__toggler")
+        .addEventListener("click", classToggle);
+    </script>
+
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
