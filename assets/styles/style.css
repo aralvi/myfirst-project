@@ -3,16 +3,14 @@ body {
   padding: 0;
 }
 .header {
-  /* border-spacing: 0px; */
+ 
   background-color: aliceblue;
 }
 .navbar {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  /* padding: 10px;
-  max-width: 1440px;
-  margin: auto; */
+  
 }
 .navbar__brand {
   display: flex;
@@ -20,20 +18,18 @@ body {
 .img {
   width: 40px;
 }
-.navbar__brand__title {
-  /* margin-left: 10px; */
-}
+
 .navbar__item__toggler {
   display: none;
 }
 
 .navbar__list {
   list-style: none;
-  /* margin-top: auto; */
+  
 }
 .navbar__list__item {
-  float: left;
-  padding-left: 10px;
+     display: contents;
+    word-spacing: 10px;
 }
 .link {
   color: black;
@@ -42,20 +38,17 @@ body {
 .navbar__link:hover {
   text-decoration: underline;
 }
-.navbar__form {
-  /* margin-top: 3px; */
-}
+
 .btn {
   padding: 10px;
   border: aliceblue;
   background-color: #fff;
   border-radius: 4px;
   cursor: pointer;
-  /* transition-duration: 0.4s; */
+  transition-duration: 0.4s;
 }
 
 .btn:hover {
-  /* border: 2px solid aliceblue; */
   background-color: #4caf50;
   color: #fff;
 }
