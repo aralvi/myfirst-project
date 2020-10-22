@@ -10,10 +10,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+
   <body>
-    <header class="header">
-      <nav class="navbar">
-        <div class="navbar__brand">
+    <header class="header bg-aliceblue">
+      <nav class="navbar d-flex v-center">
+        <div class="navbar__brand d-flex">
           <img
             class="navbar__brand__img img"
             src="assets/images/brand.svg"
@@ -47,15 +48,15 @@
           </li>
         </ul>
       </nav>
-      <section class="header__hero__section">
-          <h1>Welcome to Orify</h1>
-          <p>you will get all your solutions here</p>
+      <section class="header__hero__section d-flex v-center h-center">
+        <h1>Welcome to Orify</h1>
+        <p>you will get all your solutions here</p>
       </section>
     </header>
     <main class="main">
-        <h1 class="h1__heading">Users Profiles</h1>
-      <section class="profiles">
-        <div class="profiles__card">
+      <h1 class="text-center">Users Profiles</h1>
+      <section class="profiles d-flex h-center">
+        <div class="profiles__card text-center">
           <img
             class="profiles__card__img"
             src="assets/images/img_avatar.png"
@@ -66,7 +67,7 @@
             <p>Architect & Engineer</p>
           </div>
         </div>
-        <div class="profiles__card">
+        <div class="profiles__card text-center">
           <img
             class="profiles__card__img"
             src="assets/images/img_avatar.png"
@@ -77,7 +78,7 @@
             <p>Architect & Engineer</p>
           </div>
         </div>
-        <div class="profiles__card">
+        <div class="profiles__card text-center">
           <img
             class="profiles__card__img"
             src="assets/images/img_avatar.png"
@@ -88,7 +89,7 @@
             <p>Architect & Engineer</p>
           </div>
         </div>
-        <div class="profiles__card">
+        <div class="profiles__card text-center">
           <img
             class="profiles__card__img"
             src="assets/images/img_avatar.png"
@@ -99,7 +100,7 @@
             <p>Architect & Engineer</p>
           </div>
         </div>
-        <div class="profiles__card">
+        <div class="profiles__card text-center">
           <img
             class="profiles__card__img"
             src="assets/images/img_avatar.png"
@@ -110,7 +111,7 @@
             <p>Architect & Engineer</p>
           </div>
         </div>
-        <div class="profiles__card">
+        <div class="profiles__card text-center">
           <img
             class="profiles__card__img"
             src="assets/images/img_avatar.png"
@@ -122,8 +123,8 @@
           </div>
         </div>
       </section>
-        <h1 class="h1__heading">Contact Form</h1>
-      <section class="contact__form__section">
+      <h1 class="text-center">Contact Form</h1>
+      <section class="contact__form__section text-center">
         <form action="" class="contact__form">
           <div class="form-group">
             <label for="username" class="contact__form__lbl">User Name</label>
@@ -145,6 +146,7 @@
               id=""
             />
           </div>
+          
           <div class="form-group">
             <label for="addres" class="contact__form__lbl">User Address</label>
             <i
@@ -164,8 +166,8 @@
         </form>
       </section>
     </main>
-    <footer class="footer">
-      <section class="footer__social__section footer__section">
+    <footer class="footer d-flex bg-aliceblue">
+      <section class="footer__social__section text-center">
         <a href="facebook.com" class="link">
           <img class="img" src="assets/images/facebook.svg" alt="" />
         </a>
@@ -176,12 +178,12 @@
           <img class="img" src="assets/images/twitter.svg" alt="" />
         </a>
       </section>
-      <section class="footer__contact__section footer__section">
-          <p>Orify@gmail.com</p>
-          <p>03016225833</p>
-          <p>Jhang Road Near GC University</p>
+      <section class="footer__contact__section footer__section text-center">
+        <p>Orify@gmail.com</p>
+        <p>03016225833</p>
+        <p>Jhang Road Near GC University</p>
       </section>
-      <section class="footer__location__section footer__section">
+      <section class="footer__location__section footer__section text-center">
         <img
           src="assets/images/location.PNG"
           class="footer__location__img"
@@ -190,17 +192,7 @@
       </section>
     </footer>
 
-    <script>
-      function classToggle() {
-        const navs = document.querySelectorAll(".navbar__list");
-
-        navs.forEach((nav) => nav.classList.toggle("navbar__ToggleShow"));
-      }
-
-      document
-        .querySelector(".navbar__item__toggler")
-        .addEventListener("click", classToggle);
-    </script>
+    
 
     <script src="assets/js/custom.js"></script>
   </body>
