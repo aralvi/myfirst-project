@@ -10,7 +10,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-
   <body>
     <header class="header bg-aliceblue">
       <nav class="navbar d-flex v-center">
@@ -127,41 +126,36 @@
       <section class="contact__form__section text-center">
         <form action="" class="contact__form">
           <div class="form-group">
-            <label for="username" class="contact__form__lbl">User Name</label>
-            <i class="fa fa-user contact__form__input__icon"></i>
-            <input
-              type="text"
-              name=""
-              id=""
-              class="input__field form-control"
-            />
+            <label for="name">User Name</label>
+            <div class="input__div d-flex v-center h-center">
+              <i class="fa fa-user input__icons"></i>
+              <input class="w-50 form__field" type="text" name="" id="" />
+            </div>
           </div>
           <div class="form-group">
-            <label for="email" class="contact__form__lbl">User Email</label>
-            <i class="fa fa-envelope contact__form__input__icon"></i>
-            <input
-              type="email"
-              name=""
-              class="input__field form-control"
-              id=""
-            />
+            <label for="email">User Email</label>
+            <div class="input__div d-flex v-center h-center">
+              <i class="fa fa-envelope input__icons"></i>
+              <input class="w-50 form__field" type="email" name="" id="" />
+            </div>
           </div>
-          
+
           <div class="form-group">
-            <label for="addres" class="contact__form__lbl">User Address</label>
-            <i
-              class="fa fa-address-card contact__form__input__icon contact__form__input__icon__address"
-            ></i>
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="5"
-              class="input__field form-control"
-            ></textarea>
+            <label for="address"> Address</label>
+            <div class="d-flex v-center h-center input__div">
+              <i class="fa fa-address-card input__icons address__icon"></i>
+              <textarea
+                class="w-50 form__field"
+                name=""
+                id=""
+                cols="30"
+                rows="4"
+              ></textarea>
+            </div>
           </div>
+
           <div class="form-group">
-            <button class="btn submit__btn">Submit</button>
+            <button class="btn">Submit</button>
           </div>
         </form>
       </section>
@@ -191,8 +185,6 @@
         />
       </section>
     </footer>
-
-    
 
     <script src="assets/js/custom.js"></script>
   </body>
